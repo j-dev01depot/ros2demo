@@ -32,7 +32,7 @@ The result with the detected faces can be seen in the OpenCV default viewer.
 A few easy coding conventions:
 <!-- - declare the classes in the JK namespace (example: JK::MyClass)  -->
 - upper camel case for class names (example: ThisIsAClassName)
-- use the p_ prefix for pointer type member variables and the m_ prefix for the other class member variables, followed by lower camel case (example: std::shared_ptr<MyClass> p_myInstance, int m_myValue)
+- use the p_ prefix for pointer type member variables and the m_ prefix for the other class member variables, followed by lower camel case (example: std::shared_ptr&lt;MyClass&gt; p_myInstance, int m_myValue)
 - lower camel case name for class member functions (example: void getSomeFun(){}  )
 - indentation is two spaces  
 
